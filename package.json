@@ -23,15 +23,16 @@
     "style-loader": "^0.13.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.0.0",
-    "surge": "^0.17.3",
+    "surge": "^0.20.0",
     "url-loader": "^0.5.7",
     "vdom-parser": "^1.2.1",
     "vdom-to-html": "^2.2.0",
     "virtual-dom": "^2.1.1",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
-    "copy-webpack-plugin": "^1.1.1",
-    "xo": "^0.12.1"
+    "copy-webpack-plugin": "^2.0.0",
+    "xo": "^0.17.0",
+    "snyk": "^1.88.0"
   },
   "license": "MIT",
   "main": "index.js",
@@ -41,7 +42,9 @@
     "lint": "xo",
     "start": "webpack-dev-server",
     "yolo": "npm run build && npm run deploy",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "xo": {
     "env": [
@@ -50,5 +53,6 @@
     "ignores": [
       "public/**"
     ]
-  }
+  },
+  "snyk": true
 }
