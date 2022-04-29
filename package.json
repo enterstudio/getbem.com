@@ -23,7 +23,7 @@
     "style-loader": "^0.13.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.0.0",
-    "surge": "^0.17.3",
+    "surge": "^0.21.7",
     "url-loader": "^0.5.7",
     "vdom-parser": "^1.2.1",
     "vdom-to-html": "^2.2.0",
