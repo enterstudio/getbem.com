@@ -31,7 +31,7 @@
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
     "copy-webpack-plugin": "^1.1.1",
-    "xo": "^0.12.1"
+    "xo": "^0.40.3"
   },
   "license": "MIT",
   "main": "index.js",
